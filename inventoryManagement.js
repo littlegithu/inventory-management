@@ -25,3 +25,4 @@ if (typeof module !== 'undefined') {
         removeLastProduct
     };
 }
+// Final check
