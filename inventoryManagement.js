@@ -15,3 +15,13 @@ function updateProductName(position, newName) {
 function removeLastProduct() {
     products.pop();
 }
+
+if (typeof module !== 'undefined') {
+    module.exports = {
+        products,
+        logFirstProduct,
+        addProduct,
+        updateProductName,
+        removeLastProduct
+    };
+}
